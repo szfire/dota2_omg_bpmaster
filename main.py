@@ -6,7 +6,11 @@ from functools import partial
 
 
 def turn_red(str1):
-    return '<span style=\" color: #ff0000;\">%s</span>' % str1
+    return '<span style=\" color: #d71345;\">%s</span>' % str1
+
+
+def turn_purple(str1):
+    return '<span style=\" color: #7bbfea;\">%s</span>' % str1
 
 
 def click_get_rank():
@@ -17,14 +21,16 @@ def click_get_rank():
         rank = item[1]
         rank_current = item[5]
         num = item[3]
-        if rank_current <= 10:
-            name_cn = turn_red(str(name_cn))
-            rank = turn_red('排名:' + str(rank))
-            rank_current = turn_red(str(rank_current))
+        if rank_current <= 3:
+            func = turn_red
+        elif rank_current <= 15:
+            func = turn_purple
         else:
-            name_cn = str(name_cn)
-            rank = '排名:' + str(rank)
-            rank_current = str(rank_current)
+            func = str
+        name_cn = func(str(name_cn))
+        rank = func('排名:' + str(rank))
+        rank_current = func(str(rank_current))
+
         exec("ui.ability_{}.append(name_cn)".format(num+1))
         exec("ui.ability_{}.append(rank)".format(num+1))
         exec("ui.ability_{}.append(rank_current)".format(num+1))
