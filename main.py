@@ -76,6 +76,6 @@ if __name__ == "__main__":
 
     ui.resetButton.clicked.connect(click_reset)
     ui.get_rank_button.clicked.connect(click_get_rank)
-    ui.undoButton.clicked.connect(click_check)
+    ui.checkButton.clicked.connect(click_check)
 
     sys.exit(app.exec_())
