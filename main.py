@@ -23,7 +23,7 @@ def turn_white(str1):
 
 
 def click_get_rank():
-    rank_table = GetRank().get_rank_table()
+    rank_table = GetRank().get_rank_table()  # 获取技能排名表
     # rank_table:[name_cn, rank, location[num], num, ability_id, rank_current]
     for item in rank_table:
         name_cn = item[0]
@@ -32,7 +32,7 @@ def click_get_rank():
         ability_id = item[4]
         img_path = "./ability_pic/{}.jpg".format(ability_id)
         rank_current = item[5]
-        if rank_current <= 5:
+        if rank_current <= 5:  # 更改输出颜色
             func = turn_red
         elif rank_current <= 12:
             func = turn_blue
@@ -74,6 +74,7 @@ if __name__ == "__main__":
 
     MainWindow.show()
 
+    # 关联动作与函数
     ui.resetButton.clicked.connect(click_reset)
     ui.get_rank_button.clicked.connect(click_get_rank)
     ui.checkButton.clicked.connect(click_check)
