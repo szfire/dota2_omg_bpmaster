@@ -8,7 +8,7 @@
 ###### 打工人：szz
 ***
 下载dota2_omg_bpmaster 后：
-1. 安装python>=3.6
+1. 安装python>=3.8
 2. 双击运行pip-install.bat
 3. 运行main.py
 
