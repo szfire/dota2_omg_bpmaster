@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65de045e-b395-4150-8c84-a5b52eedda39" name="Changes" comment="beta1.2更新">
-      <change beforePath="$PROJECT_DIR$/Update log.md" beforeDir="false" afterPath="$PROJECT_DIR$/Update log.md" afterDir="false" />
+    <list default="true" id="65de045e-b395-4150-8c84-a5b52eedda39" name="Changes" comment="beta1.2补充更新">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_rank.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -77,7 +78,12 @@
       <workItem from="1628233855525" duration="4642000" />
       <workItem from="1628238547638" duration="1077000" />
       <workItem from="1628244906388" duration="2460000" />
-      <workItem from="1628342800479" duration="195000" />
+      <workItem from="1628342800479" duration="2628000" />
+      <workItem from="1628517658495" duration="1025000" />
+      <workItem from="1628594193881" duration="607000" />
+      <workItem from="1628684032251" duration="2125000" />
+      <workItem from="1628766037201" duration="986000" />
+      <workItem from="1628832545609" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1627876008745</created>
@@ -163,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628342854446</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="beta1.2补充更新">
+      <created>1628343067904</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628343067904</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,9 +235,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="beta1.2更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="beta1.2更新" />
+    <MESSAGE value="beta1.2补充更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="beta1.2补充更新" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1628247344178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1628766052090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

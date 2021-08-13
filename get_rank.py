@@ -1,7 +1,6 @@
 from get_image import *
 import os
 import json
-import pandas as pd
 
 
 class GetRank(object):
@@ -131,14 +130,6 @@ class GetRank(object):
         for item in sta_table:  # 获取当局中排名
             item.append(index)
             index = index + 1
-        # print(sta_table[0])
-        # print(sta_table[1])
-
-        if save_sta:
-            final_table = [tmp[:3] for tmp in sta_table]
-            csv_name = ['名称', '排名', '位置']
-            my_csv = pd.DataFrame(columns=csv_name, data=final_table)
-            my_csv.to_csv('./cache/result.csv', encoding='utf_8_sig')
 
         file.close()
 
