@@ -9,7 +9,7 @@ class GetRank(object):
         x = 80
         self.img_shape = (x, x)
 
-    def get_rank_table(self, save_img=False, save_sta=False):
+    def get_rank_table(self, save_img=False, save_table=False):
         """rank_table : [name_cn, rank, location[num], num, ability_id]"""
         gi = GetImg()  # 初始化截图工具
         gi.get_screen()  # 截图全屏
@@ -19,8 +19,6 @@ class GetRank(object):
         rst2 = gi.get_rst2()  # 获取大招区域
 
         if save_img:  # 保存截图到缓存文件夹
-            print(gi.get_dpi())
-            print(gi.screen.shape)
             gi.save_img()
             gi.save_img("./cache/ability_area1.jpg", rst1)
             gi.save_img("./cache/ability_area2.jpg", rst2)
@@ -98,24 +96,38 @@ class GetRank(object):
         new_dict = json.loads(load_dict)  # 读取json
         ability_dict = new_dict['rows']  # 得到技能的字典列表
         sta_table = []  # 存放最终结果
+        all_name.insert(0, '-1')
 
         for num in range(48):
             i2 = num + 1
+            flag = False
+            k = False
             temp1 = eval('a{}'.format(i2))  # 获得上面的例如 a1 变量
             a = cv2.resize(temp1, self.img_shape, interpolation=cv2.INTER_LINEAR)  # 归一化
 
             ls = []  # 存放与所有技能的匹配结果
+
             for filename in all_name:  # 遍历技能
+                if not k and not os.path.exists('./ability_pic/' + filename):
+                    k = True
+                    continue
+                k = True
                 b1 = cv2.imread(r'./ability_pic/' + filename)
                 b2 = cv2.resize(b1, self.img_shape, interpolation=cv2.INTER_LINEAR)
                 res = cv2.matchTemplate(a, b2, cv2.TM_CCORR_NORMED)  # 模板匹配
                 ls.append([filename, res[0]])  #
+                if res[0] > 0.97:  # 相似度临界值
+                    ls = [[filename, res[0]]]
+                    flag = True
+                    break
 
-            ls.sort(key=lambda x: x[1])  # 按相似度排序
+            if not flag:
+                ls.sort(key=lambda x: x[1])  # 按相似度排序
 
             the_id = ls[-1][0][:4]  # 获取最佳匹配结果的id
             if the_id[-1] == '.':  # 三位数情况
                 the_id = the_id[:3]
+            all_name[0] = str(int(the_id) + 1) + '.jpg'
 
             for j in ability_dict:
                 if j['abilityId'] == int(the_id):
@@ -123,7 +135,7 @@ class GetRank(object):
                     ability_id = j['abilityId']  # id
                     name_cn = j['nameCn']  # 技能名
                     sta_table.append([name_cn, rank, location[num], num, ability_id])
-                    continue
+                    break
 
         sta_table.sort(key=lambda x: x[1])
         index = 1

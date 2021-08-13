@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65de045e-b395-4150-8c84-a5b52eedda39" name="Changes" comment="beta1.2补充更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Update log.md" beforeDir="false" afterPath="$PROJECT_DIR$/Update log.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_rank.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +84,7 @@
       <workItem from="1628594193881" duration="607000" />
       <workItem from="1628684032251" duration="2125000" />
       <workItem from="1628766037201" duration="986000" />
-      <workItem from="1628832545609" duration="665000" />
+      <workItem from="1628832545609" duration="2922000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1627876008745</created>
@@ -176,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628343067904</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="beta1.2补充更新">
+      <created>1628833293806</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628833293806</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
