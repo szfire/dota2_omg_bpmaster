@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65de045e-b395-4150-8c84-a5b52eedda39" name="Changes" comment="胜率数据更新">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winrate/abilitieswinrate.json" beforeDir="false" afterPath="$PROJECT_DIR$/winrate/abilitieswinrate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_rank.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <workItem from="1631349773723" duration="2047000" />
       <workItem from="1631456153691" duration="604000" />
       <workItem from="1631870666200" duration="31000" />
-      <workItem from="1631870728450" duration="169000" />
+      <workItem from="1631870728450" duration="389000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1627876008745</created>
@@ -274,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630899568707</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="胜率数据更新">
+      <created>1631870930829</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1631870930829</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

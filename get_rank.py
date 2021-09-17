@@ -6,7 +6,7 @@ import json
 class GetRank(object):
 
     def __init__(self):
-        x = 80
+        x = 64
         self.img_shape = (x, x)
 
     def get_rank_table(self, save_img=False, save_table=False):
