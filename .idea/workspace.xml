@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65de045e-b395-4150-8c84-a5b52eedda39" name="Changes" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/winrate/abilitieswinrate.json" beforeDir="false" afterPath="$PROJECT_DIR$/winrate/abilitieswinrate.json" afterDir="false" />
     </list>
@@ -31,7 +32,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -119,7 +120,27 @@
       <workItem from="1632231827800" duration="8579000" />
       <workItem from="1632490966539" duration="1154000" />
       <workItem from="1632576631363" duration="5695000" />
-      <workItem from="1632916417386" duration="132000" />
+      <workItem from="1632916417386" duration="301000" />
+      <workItem from="1633095825445" duration="2744000" />
+      <workItem from="1633352165540" duration="298000" />
+      <workItem from="1633529733482" duration="132000" />
+      <workItem from="1633529892421" duration="3000" />
+      <workItem from="1633844211655" duration="296000" />
+      <workItem from="1633881378535" duration="18000" />
+      <workItem from="1634125316015" duration="349000" />
+      <workItem from="1634296844418" duration="291000" />
+      <workItem from="1634387487284" duration="2223000" />
+      <workItem from="1634907077123" duration="297000" />
+      <workItem from="1634961456838" duration="3000" />
+      <workItem from="1635078430371" duration="1090000" />
+      <workItem from="1636109134420" duration="295000" />
+      <workItem from="1636365368511" duration="282000" />
+      <workItem from="1636701682267" duration="12000" />
+      <workItem from="1636723823181" duration="13041000" />
+      <workItem from="1636894975822" duration="611000" />
+      <workItem from="1637327103297" duration="375000" />
+      <workItem from="1637416741067" duration="3408000" />
+      <workItem from="1637472325624" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1627876008745</created>
@@ -303,7 +324,21 @@
       <option name="project" value="LOCAL" />
       <updated>1632223201917</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="1">
+      <created>1632916565060</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1632916565060</updated>
+    </task>
+    <task id="LOCAL-00028" summary="1">
+      <created>1632916579539</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1632916579539</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,6 +403,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1632576632279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1637416749092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
