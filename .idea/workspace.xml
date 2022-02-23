@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65de045e-b395-4150-8c84-a5b52eedda39" name="Changes" comment="1">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/winrate/abilitieswinrate.json" beforeDir="false" afterPath="$PROJECT_DIR$/winrate/abilitieswinrate.json" afterDir="false" />
     </list>
@@ -32,7 +31,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -141,6 +140,53 @@
       <workItem from="1637327103297" duration="375000" />
       <workItem from="1637416741067" duration="3408000" />
       <workItem from="1637472325624" duration="303000" />
+      <workItem from="1637577317013" duration="434000" />
+      <workItem from="1637660321555" duration="675000" />
+      <workItem from="1637924598257" duration="116000" />
+      <workItem from="1638011628714" duration="35000" />
+      <workItem from="1638103483671" duration="292000" />
+      <workItem from="1638538221924" duration="618000" />
+      <workItem from="1638620085457" duration="604000" />
+      <workItem from="1638675615836" duration="323000" />
+      <workItem from="1638675955940" duration="38000" />
+      <workItem from="1638704136272" duration="91000" />
+      <workItem from="1638704241721" duration="727000" />
+      <workItem from="1638709713235" duration="1340000" />
+      <workItem from="1639068465859" duration="16000" />
+      <workItem from="1639144951230" duration="1230000" />
+      <workItem from="1639152698992" duration="7000" />
+      <workItem from="1639231429299" duration="1207000" />
+      <workItem from="1639574981547" duration="16000" />
+      <workItem from="1639575013016" duration="615000" />
+      <workItem from="1639748910162" duration="955000" />
+      <workItem from="1639757902611" duration="33000" />
+      <workItem from="1639757950523" duration="17000" />
+      <workItem from="1640524349061" duration="605000" />
+      <workItem from="1640530283984" duration="21000" />
+      <workItem from="1640596731952" duration="1833000" />
+      <workItem from="1640692971219" duration="1065000" />
+      <workItem from="1640955149006" duration="601000" />
+      <workItem from="1641129061704" duration="601000" />
+      <workItem from="1641178654595" duration="42000" />
+      <workItem from="1641213745110" duration="610000" />
+      <workItem from="1641560569510" duration="612000" />
+      <workItem from="1641727602048" duration="1019000" />
+      <workItem from="1641988707080" duration="604000" />
+      <workItem from="1642082115223" duration="616000" />
+      <workItem from="1642167301620" duration="601000" />
+      <workItem from="1642247004060" duration="688000" />
+      <workItem from="1642511016460" duration="625000" />
+      <workItem from="1642597159360" duration="1166000" />
+      <workItem from="1642771239982" duration="598000" />
+      <workItem from="1642858565441" duration="1019000" />
+      <workItem from="1643122166299" duration="624000" />
+      <workItem from="1643179257770" duration="636000" />
+      <workItem from="1643375570987" duration="1244000" />
+      <workItem from="1643546673980" duration="618000" />
+      <workItem from="1644586350393" duration="630000" />
+      <workItem from="1644843401221" duration="1225000" />
+      <workItem from="1645182668562" duration="887000" />
+      <workItem from="1645609016112" duration="107000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1627876008745</created>
@@ -338,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632916579539</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="1">
+      <created>1637577366014</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1637577366014</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,6 +456,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1637416749092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1645182961887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
