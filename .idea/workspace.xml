@@ -16,6 +16,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1w8GyHE0QVTA4PEEBp5D2fSotEX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -206,7 +214,47 @@
       <workItem from="1647241946708" duration="111000" />
       <workItem from="1647242178721" duration="1225000" />
       <workItem from="1647604390211" duration="707000" />
-      <workItem from="1647687789058" duration="27000" />
+      <workItem from="1647687789058" duration="1338000" />
+      <workItem from="1647783889657" duration="1446000" />
+      <workItem from="1648215373109" duration="624000" />
+      <workItem from="1648301733556" duration="614000" />
+      <workItem from="1648385971189" duration="602000" />
+      <workItem from="1648817597705" duration="1325000" />
+      <workItem from="1648899292751" duration="629000" />
+      <workItem from="1648980724726" duration="142000" />
+      <workItem from="1648985924548" duration="608000" />
+      <workItem from="1649159235098" duration="1350000" />
+      <workItem from="1649422708258" duration="1403000" />
+      <workItem from="1649510448536" duration="932000" />
+      <workItem from="1649599592306" duration="600000" />
+      <workItem from="1650026606928" duration="648000" />
+      <workItem from="1650043610149" duration="15000" />
+      <workItem from="1650113752670" duration="893000" />
+      <workItem from="1650200355269" duration="604000" />
+      <workItem from="1650632750087" duration="626000" />
+      <workItem from="1650717676911" duration="686000" />
+      <workItem from="1650812753870" duration="598000" />
+      <workItem from="1651243544593" duration="659000" />
+      <workItem from="1651320863470" duration="1319000" />
+      <workItem from="1651417700245" duration="600000" />
+      <workItem from="1651671194499" duration="1247000" />
+      <workItem from="1651841263557" duration="825000" />
+      <workItem from="1651844170491" duration="479000" />
+      <workItem from="1651847385565" duration="28000" />
+      <workItem from="1651923871380" duration="792000" />
+      <workItem from="1652443171183" duration="664000" />
+      <workItem from="1652531695177" duration="1202000" />
+      <workItem from="1652616218684" duration="614000" />
+      <workItem from="1653049115319" duration="609000" />
+      <workItem from="1653139031046" duration="612000" />
+      <workItem from="1653222825606" duration="632000" />
+      <workItem from="1653660172359" duration="1733000" />
+      <workItem from="1653745247403" duration="1569000" />
+      <workItem from="1654864183840" duration="607000" />
+      <workItem from="1654959313444" duration="634000" />
+      <workItem from="1655010616648" duration="74000" />
+      <workItem from="1655558199711" duration="1223000" />
+      <workItem from="1656752093102" duration="809000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1627876008745</created>
@@ -425,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646893209304</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="1">
+      <created>1647687836185</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1647687836185</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,6 +556,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1647604501653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1656752209001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
